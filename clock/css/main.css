@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'motion';
+	src: url(../fonts/motion.otf);
+}
+
+body {
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #9DFF94;
+}
+
+.timeDiv {
+	/*text-align: center;*/
+	font-size: 150px;
+	font-family: 'motion';
+	letter-spacing: 40px;
+	/*font-kerning: 50px;*/
+}
+
+.whiteFont {
+	color: #ffffff;
+}
+
+.dudFont {
+	color: #B9DC82;
+}
+
+.container {
+	position: relative;
+	top: 75px;
+}
+
+.first,
+.second,
+.third, {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	display: inline !important;
+}
+
+#dud1Here,
+#dud2Here,
+#dud3Here,
+#dud4Here,
+#dud5Here,
+#dud6Here,
+#dud7Here,
+#dud8Here {
+	display: inline;
+	text-align: center;
+}
+
+#hourHere,
+#minsHere,
+#secsHere,
+#amPmHere {
+	display: inline;
+	text-align: center;
+}
